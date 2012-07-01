@@ -1,6 +1,30 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
-obj
+
+#Ignore files build by Visual Studio
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+bin/
+[Bb]in
+[Dd]ebug*/
+*.sbr
+[Rr]elease*/
+_ReSharper*/
 
 # mstest test results
 TestResults
+
+# Upgrade Folders/Files
+_UpgradeReport_Files/
+UpgradeLog.XML
+
+#ignore thumbnails created by windows
+Thumbs.db
